@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | AJsTechnologies</title>
+<meta name="description" content="Contact AJsTechnologies for a website, poster or CV quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="AJsTechnologies home">
+      <span class="mark" aria-hidden="true"><b>A</b><i>J</i></span>
+      <span class="name">AJs<small>Technologies</small></span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn gold" href="contact.html">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Contact</h1>
+      <p>Tell me about your business and I'll send you a quote.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="contact-grid">
+        <div>
+          <h2>Get in touch</h2>
+          <dl class="details">
+            <div><dt>Phone</dt><dd><a href="tel:0725118764">072 511 8764</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:awujack527@gmail.com">awujack527@gmail.com</a></dd></div>
+          </dl>
+          <a class="btn gold" href="https://wa.me/27725118764" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+
+        <form id="quote-form">
+          <label>Your name <input type="text" name="name" required autocomplete="name"></label>
+          <label>Business name <input type="text" name="business" autocomplete="organization"></label>
+          <label>What do you need?
+            <select name="need">
+              <option>Basic website (R2000)</option>
+              <option>Intermediate website</option>
+              <option>Advance website</option>
+              <option>Poster (R150)</option>
+              <option>CV refinement (R100)</option>
+            </select>
+          </label>
+          <label>Details <textarea name="details" placeholder="Tell me about your business and what you need."></textarea></label>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+      </div>
+
+      <h2 style="margin-top:3rem">Find us</h2>
+      <div class="map">
+        <!-- This map shows South Africa. To pin your exact location: open openstreetmap.org, find your town,
+             click Share, choose "HTML", copy the embed code and paste it here in place of this iframe. -->
+        <iframe title="Map showing where to find AJsTechnologies" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=16.0%2C-35.5%2C33.5%2C-22.0&amp;layer=mapnik"></iframe>
+      </div>
+      <p class="map-note">Contact me first to arrange a meeting or a delivery.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="index.html"><span class="mark" aria-hidden="true"><b>A</b><i>J</i></span><span class="name">AJs<small>Technologies</small></span></a>
+        <p style="margin-top:0.75rem">Websites, posters and CVs for businesses.</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="tel:0725118764">072 511 8764</a></li>
+        <li><a href="mailto:awujack527@gmail.com">awujack527@gmail.com</a></li>
+      </ul>
+    </div>
+    <p class="legal">&copy; <span class="year"></span> AJsTechnologies. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
